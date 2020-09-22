@@ -35,7 +35,7 @@ function getId(element){
     widthToAdd = Math.trunc(actualWidth / nb_input);  
     progress_bar.style.width = progress_bar.offsetWidth - widthToAdd+ "px";
     pourcentage_fait = pourcentage_de_base >= 98 ? 100 : pourcentage_de_base;
-    progress_bar.innerHTML = pourcentage_fait +" %";
+    progress_bar.innerHTML = pourcentage_fait +"%";
     if(pourcentage_fait !== 100){
       document.getElementById('message').style.display = "none";
       document.getElementById('message').innerHTML = "<h2>Félicitations toutes les tâches sont faites.</h2>";
