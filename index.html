@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>to do list</title>
+</head>
+<body>
+  <div id="message">
+      <h2>taches</h2>
+  </div>
+  <form action="" id="formulaire">
+    <input type="checkbox" class="checkbox" id="tache_1" name="tache_1" value="tache_1" onclick="getId(this)">
+    <label for="tache_1"> tache 1</label><br>
+
+    <input type="checkbox" class="checkbox" id="tache_2" name="tache_2" value="tache_2" onclick="getId(this)">
+    <label for="tache_2"> tache 2</label><br>
+
+    <input type="checkbox" class="checkbox" id="tache_3" name="tache_3"  onclick="getId(this)">
+    <label for="tache_3"> tache 3</label><br>
+
+    <input type="checkbox" class="checkbox" id="tache_4" name="tache_4"  onclick="getId(this)">
+    <label for="tache_4"> tache 4</label><br>
+
+    <input type="checkbox" class="checkbox" id="tache_5" name="tache_5"  onclick="getId(this)">
+    <label for="tache_5"> tache 5</label><br>
+
+    <input type="checkbox" class="checkbox" id="tache_6" name="tache_6"  onclick="getId(this)">
+    <label for="tache_6"> tache 6</label><br>
+    
+    <input type="checkbox" class="checkbox" id="tache_7" name="tache_7"  onclick="getId(this)">
+    <label for="tache_7"> tache 7</label><br>
+  </form>
+  <div id="progress_status"> 
+    <div id="progress_bar">0%</div>
+  </div>
+  <button id= "reset" type="reset">reset</button>
+</body>
+<script src="script.js"></script>
+</html>
